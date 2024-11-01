@@ -1,8 +1,12 @@
+import React from "react";
 import { View, Text } from "react-native";
 
-export default function Welcome() {
-  return;
-  <View>
-    <Text>Hello This is Home Page </Text>
-  </View>;
-}
+const Welcome = () => {
+  return (
+    <View>
+      <Text>Welcome to Welcome Page</Text>
+    </View>
+  );
+};
+
+export default Welcome;
